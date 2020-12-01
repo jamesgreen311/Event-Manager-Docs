@@ -1,4 +1,9 @@
 source "https://rubygems.org"
+ruby RUBY_VERSION
+
+# We'll need rake to build our site in TravisCI
+gem "rake", "~> 12"
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -17,7 +22,11 @@ gem "jekyll", "~> 4.1.1"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-seo-tag", "~> 2.7.1"
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate-v2"
+  gem "jekyll-compose", "~> 0.5"
+  gem "jekyll-redirect-from"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

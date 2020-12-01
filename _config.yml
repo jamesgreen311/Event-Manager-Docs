@@ -31,7 +31,11 @@ github_username:  jamesgreen311
 # theme: just-the-docs
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate-v2
   - jekyll-seo-tag
+  - jekyll-compose
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -52,3 +56,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - Rakefile
