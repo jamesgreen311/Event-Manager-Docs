@@ -70,8 +70,11 @@ $red-100: #f96e65 !default;
 $red-200: #e94c4c !default;
 $red-300: #dd2e2e !default;
 
+$mraa-lt-blue: #99DEEE!default;
+
 $body-background-color: $white !default;
-$sidebar-color: $grey-lt-000 !default;
+// $sidebar-color: $grey-lt-000 !default;
+$sidebar-color: $mraa-lt-blue !default;
 $search-background-color: $white !default;
 $table-background-color: $white !default;
 $code-background-color: $grey-lt-000 !default;
