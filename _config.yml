@@ -20,7 +20,7 @@
 
 title: MRAA Event Manager Docs
 email: jamesgreen.311@gmail.com
-baseurl: "/event-manager-docs"
+baseurl: ""
 description: This site provides documentation for MRAA board members to create and manage online registrations for association sponsored events.
 url: "https://jamesgreen311.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
