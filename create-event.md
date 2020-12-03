@@ -25,7 +25,7 @@ The Event Id and Event Status are the only required fields in the Event Master b
 **Subtitle** <br>
 The Subtitle will be displayed on the form below the Title.
 
-**Start**
+**Start** <br>
 The Start can be just the date or the date and the start time.
 
 **End** <br>
@@ -51,4 +51,4 @@ The desciption text will appear on the form below the location. But even though 
 At this time, it is a manual copy/paste of the Event Id from the Event Master to the Event Description and the Event Details sheets.
 
 ## Event Details
-The Event Details will display after the Description. Each row in the sheet for an event will display as a bulleted list item. The same rules as the Event Description apply to the Event Details.
+The Event Details will display after the Description. Each row in the sheet for an event will display as a bulleted list item. The rules for the Event Description apply to the Event Details.
