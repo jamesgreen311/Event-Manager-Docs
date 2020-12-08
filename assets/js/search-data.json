@@ -1,0 +1,80 @@
+{"0": {
+    "doc": "Create an Event",
+    "title": "Create An Event",
+    "content": "The Event Manager spreadsheet contains all the data and options to create a new event and manage existing ones. Open up the Event Manager spreadsheet. Only board members have access to the document. It may take a couple seconds to appear but you should see a new menu option in the top menu bar right next to Help called MRAA Options. The drop down menu contains two options; Create a New Event &amp; Create Multiple Events. Make sure the current tab or sheet is the Event Master. This is where the new Event Id will be created. Each event must be assigned a unique Id. Click the MRAA Options menu, then select the Create a New Event option. A new ID will be added to the first blank row. The new event will automatically be set to a Planned status. If you have several events you need to add all at once, you can use the Create Multiple Events menu option. Selecting the Create Muliple Events option will launch a dialog window with a number field (1) and a Generate Event Id button (2). Select the number of events you would like to create and then click the button. The dialog window will stay open until you click the X (3) in the upper right to close it. The Event Id and Event Status are the only required fields in the Event Master but a Title, Start and Location are the minimum that should be entered if the form is open to the public. Subtitle The Subtitle will be displayed on the form below the Title. Start The Start can be just the date or the date and the start time. End The End date is not required but can be used to indicate the duration of the event. It can be entered as just the date or date and time. If you only want to show an end time, both the date and time must be entered. Both the Start and End dates can be formatted in any valid date format that you wish per event. But the format that is chosen will display that date wherever it appears. See Dates for more information. Location The location is freeform text. It will appear all on one line in the form but will wrap to the next line if it’s very long. Max Max is the maximum number of participants allowed to enter the event. It is not required and will not display if left blank. If a number is entered, it is only used as an indicator on the form. It does not impose a cut-off for registration. Contact Name &amp; Contact Email The Contact Name and Email are to provide a contact for the registrant to ask questions. ",
+    "url": "https://jamesgreen311.github.io/event-manager-docs/create-event/#create-an-event",
+    "relUrl": "/create-event/#create-an-event"
+  },"1": {
+    "doc": "Create an Event",
+    "title": "Event Description",
+    "content": "Each event can have descriptive text and/or details about the event. Both the description and the details are entered in their own sheets. This allows them to be any length you chose. The desciption text will appear on the form below the location. But even though a description is not required, a row with the event id needs to be added to the Event Description sheet. The Description column can be left blank. (1) To display the description as multiple lines on the form, each line requires it’s own row in the sheet. (2) . At this time, it is a manual copy/paste of the Event Id from the Event Master to the Event Description and the Event Details sheets. ",
+    "url": "https://jamesgreen311.github.io/event-manager-docs/create-event/#event-description",
+    "relUrl": "/create-event/#event-description"
+  },"2": {
+    "doc": "Create an Event",
+    "title": "Event Details",
+    "content": "The Event Details will display after the Description. Each row in the sheet for an event will display as a bulleted list item. The rules for the Event Description apply to the Event Details. ",
+    "url": "https://jamesgreen311.github.io/event-manager-docs/create-event/#event-details",
+    "relUrl": "/create-event/#event-details"
+  },"3": {
+    "doc": "Create an Event",
+    "title": "Create an Event",
+    "content": " ",
+    "url": "https://jamesgreen311.github.io/event-manager-docs/create-event/",
+    "relUrl": "/create-event/"
+  },"4": {
+    "doc": "Dates",
+    "title": "Dates",
+    "content": "The Event Manager has two date fields; the Start of an event and the End of an event. Only the Start date is required. ",
+    "url": "https://jamesgreen311.github.io/event-manager-docs/dates/",
+    "relUrl": "/dates/"
+  },"5": {
+    "doc": "Dates",
+    "title": "Format ",
+    "content": "Both dates can be displayed in any valid date format supported by Google Sheets. The display format can vary from event to event. To set the display format for either date, select the date cell, and then click the Format &gt; Number menu options. Previously used date formats will appear at the bottom of the menu list. If the format you are looking for does not appear in this list, select the More Formats &gt; More date and time formats option. The default options can be changed, removed or placed in a different order. Clicking the drop down arrow (1) will display more options to select from. Click the Apply button when you have the format you want. ",
+    "url": "https://jamesgreen311.github.io/event-manager-docs/dates/#format-",
+    "relUrl": "/dates/#format-"
+  },"6": {
+    "doc": "Event Counts",
+    "title": "Event Counts",
+    "content": "Each event registration will display the total number of participants signed up. This count is provided as helpful feedback to the attendee let them know how many have already signed up to attend this event. In addition to the total signed up count, if a Max for the event was set, the attendee will also see a Seating Limit and what is calculated as the number of Seats Available. Seating Limit is the value set for Max. Seats Available is calculated as the Max minus Total Signed Up. If Total Signed Up meets or exceeds Max, no one will be prevented from registering. ",
+    "url": "https://jamesgreen311.github.io/event-manager-docs/event-counts/",
+    "relUrl": "/event-counts/"
+  },"7": {
+    "doc": "Event Counts",
+    "title": "Event Registration Counts",
+    "content": "To determine the number of participants signed up per event, a pivot table is used. This pivot table is in the Event Registration Counts sheet. It uses the email entered on the registration form to identify an attendee. Each email captured per event will only be counted once. If someone accidentally registers more than once, as long as the same email address was used, they will only be counted one time. ",
+    "url": "https://jamesgreen311.github.io/event-manager-docs/event-counts/#event-registration-counts",
+    "relUrl": "/event-counts/#event-registration-counts"
+  },"8": {
+    "doc": "Registration Data",
+    "title": "Registration Data",
+    "content": "The attendees registration data is stored in the Event sheet. The event count pivot table draws from this sheet. As new registrations are entered into this sheet, the pivot table will automatically update the summary data. Each row in this sheet will include the id and title of the event registered. Each attendees name, email, phone number and comments are found in this sheet. It will also contain a timestamp indicating when the attendee registered. ",
+    "url": "https://jamesgreen311.github.io/event-manager-docs/registration-data/",
+    "relUrl": "/registration-data/"
+  },"9": {
+    "doc": "The Registration Form",
+    "title": "The Registration Form",
+    "content": " ",
+    "url": "https://jamesgreen311.github.io/event-manager-docs/registration-form/",
+    "relUrl": "/registration-form/"
+  },"10": {
+    "doc": "The Registration Form",
+    "title": "Link",
+    "content": "https://script.google.com/macros/s/AKfycbw9yov3sDA-4K0N4K5bdj_78HyM6idKyGUmz_Cv9oIHPpGKGzc/exec . To get to the registration form for an open event, the url needs to include two parameters . | v=reg | id={event-id} | . As an example, this will load the registration form for event 3EED34E, /exec?v=reg&amp;id=3EED34E . If the link is used without any parameters, an Event List page will display. This page shows all the existing events and its current status. If an event is “Open”, there will be a Sign Up button that will take you to the form. If you right click on the button, you can copy link with the necessary parameters already included. ",
+    "url": "https://jamesgreen311.github.io/event-manager-docs/registration-form/#link",
+    "relUrl": "/registration-form/#link"
+  },"11": {
+    "doc": "Understanding the Spreadsheet",
+    "title": "Understanding the Spreadsheet",
+    "content": " ",
+    "url": "https://jamesgreen311.github.io/event-manager-docs/spreadsheet/",
+    "relUrl": "/spreadsheet/"
+  },"12": {
+    "doc": "Understanding the Spreadsheet",
+    "title": "Tabs",
+    "content": "Config | Event Master | Event Description | Event Details . Config . The Config tab contains lists of values that are used as drop downs selections in the Event Master tab. The values used for the Status drop down list are added or removed from this tab. Initially the Status column contains: . | Planned | Open | Closed | Cancelled | Postponed | . Statuses can be added, but removing or renaming will cause an error in the code. The order these appear in the drop down list matches the order they appear in the sheet column. A feature enhancement could be written to break this dependency by adding an id if that is a desired feature. Status is currently the only column defined for the Event Master data. Event data is added to three tabs; Event Master, Event Description, &amp; Event Details . Event Master . The Event Master contains the core information about the event. There will be one row per event in the Master sheet. Event Description . The Event Description sheet contains the text that will be used as the events description and consists of 1 to many rows in the sheet. Each row must have the events unique Id in the first column. This will tie it to the correct master row when displayed. Event Details . The Event Details sheet contains the bulleted list of items to be displayed in the Event Details section. There can be 1 to many rows for an event and each row will be a new bullet item. Just like event description, each row in event details must have the events unique Id in the first column. ",
+    "url": "https://jamesgreen311.github.io/event-manager-docs/spreadsheet/#tabs",
+    "relUrl": "/spreadsheet/#tabs"
+  }
+}
